@@ -1,5 +1,6 @@
 from time import time
 import numpy as np
+
 simple_list = [5,1,3,8,4,7,2,9,0,6]
 np.random.seed(0)
 big_list = np.random.permutation(100000)
