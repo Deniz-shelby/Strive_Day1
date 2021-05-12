@@ -19,12 +19,15 @@ for i in range(df.shape[0]):
         predictions.append(0)
 
     if len(predictions) == 5:
-        cont = 0
+        count = 0
         for p in predictions:
             if p == 0:
-                cont += 1
-        if cont >= 4:
+                count += 1
+        if count >= 4:
             print('HEART ATTACK')
+            sleep(2)
+            predictions = []
+            print(predictions)
         predictions.remove(predictions[0])
 
 
