@@ -1382,7 +1382,7 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "e48ee02e",
+   "id": "eb565e42",
    "metadata": {},
    "outputs": [],
    "source": []
@@ -1390,7 +1390,7 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "c206014f",
+   "id": "fdd6f7b0",
    "metadata": {},
    "outputs": [
     {
@@ -1421,7 +1421,7 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "a2614e80",
+   "id": "84272508",
    "metadata": {},
    "outputs": [
     {
@@ -1442,7 +1442,7 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "77130a6f",
+   "id": "a97b1e6d",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -1452,7 +1452,7 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "06676462",
+   "id": "d7f3dd20",
    "metadata": {},
    "outputs": [
     {
@@ -1474,7 +1474,7 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "8f99e3e3",
+   "id": "b96d56d7",
    "metadata": {},
    "outputs": [],
    "source": []
@@ -1482,7 +1482,7 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "562bf635",
+   "id": "fe8139d6",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -3359,7 +3359,7 @@
   {
    "cell_type": "code",
    "execution_count": 16,
-   "id": "656e33b0",
+   "id": "a232b697",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -3407,7 +3407,7 @@
   {
    "cell_type": "code",
    "execution_count": 18,
-   "id": "072a6dfa",
+   "id": "daacf7f0",
    "metadata": {},
    "outputs": [
     {
@@ -4080,7 +4080,7 @@
   {
    "cell_type": "code",
    "execution_count": 23,
-   "id": "3b620085",
+   "id": "e464ae98",
    "metadata": {},
    "outputs": [
     {
@@ -4567,7 +4567,7 @@
   {
    "cell_type": "code",
    "execution_count": 30,
-   "id": "cdf1118f",
+   "id": "ce87b213",
    "metadata": {},
    "outputs": [
     {
@@ -5867,97 +5867,27 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 46,
-   "id": "54d9f009",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "import pickle"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 50,
-   "id": "1c957a85",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "model = tree_classifiers[\"AdaBoost\"]\n",
-    "model.fit(x_train, y_train)\n",
-    "pred = model.predict(x_test) "
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 51,
-   "id": "62a189af",
+   "execution_count": 45,
+   "id": "44386569",
    "metadata": {},
    "outputs": [
     {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[[ 56   3  15   2]\n",
-      " [  0  35   8   1]\n",
-      " [  2  21 156  19]\n",
-      " [ 20  10 138 343]]\n",
-      "              precision    recall  f1-score   support\n",
-      "\n",
-      "       Still       0.72      0.74      0.73        76\n",
-      "       Train       0.51      0.80      0.62        44\n",
-      "     Vehicle       0.49      0.79      0.61       198\n",
-      "     Walking       0.94      0.67      0.78       511\n",
-      "\n",
-      "    accuracy                           0.71       829\n",
-      "   macro avg       0.66      0.75      0.68       829\n",
-      "weighted avg       0.79      0.71      0.73       829\n",
-      "\n"
-     ]
+     "data": {
+      "text/plain": [
+       "829"
+      ]
+     },
+     "execution_count": 45,
+     "metadata": {},
+     "output_type": "execute_result"
     }
    ],
-   "source": [
-    "print(confusion_matrix(y_test,pred))\n",
-    "print(classification_report(y_test, pred))"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 52,
-   "id": "6c440a2e",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "# save the model to disk\n",
-    "filename = 'final_model_v1.sav'\n",
-    "pickle.dump(model, open(filename, 'wb'))\n",
-    "\n"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 56,
-   "id": "a4943617",
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "0.7117008443908324\n"
-     ]
-    }
-   ],
-   "source": [
-    "# load the model from disk\n",
-    "loaded_model = pickle.load(open(filename, 'rb'))\n",
-    "result = loaded_model.score(x_test, y_test)\n",
-    "print(result)"
-   ]
+   "source": []
   },
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "0e24bbb7",
+   "id": "8b772f69",
    "metadata": {},
    "outputs": [],
    "source": []
