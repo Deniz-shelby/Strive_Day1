@@ -43,10 +43,7 @@ h1{
 .avatar{
     width:320px;
 }
-.jumbotron {
-    background-color:var(--main-bg-color);
-    height:100vh;
-}
+
 
 .card{
     background-color:var(--main-bg-color);

@@ -3,19 +3,28 @@
 
 <div class="container">
     <div class="hero">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-            <img src="{{url_for('static', filename='/assets/profile.png')}}" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" width="700" height="500">
+        
+        <div class="row h-100">
+            <div class="col col-sm-12 col-md-7 d-flex flex-column justify-content-center">
+                <img class="avatar" src="{{url_for('static', filename='/assets/profile.png')}}" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" >
+                <div class="social-links mt-4 d-flex align-items-center justify-content-start">
+                    {%for social_link in social_links%}
+                        <span>
+                            <a href="{{social_link['link']}}">{{social_link["icon"]|safe }}</a>
+                        </span>
+                    {%endfor%}
+                </div>
             </div>
-            <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-            <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+            <div class="col col-sm-12 col-md-5 d-flex flex-column align-items-center justify-content-center">
+            <h1 class="display-5 fw-bold mb-3">AI Engineer, Mechanical Engineer, Fullstack Developer.</h1>
+            <p class="lead">I am an AI Engineer, who focuses on .... I build also beautiful web applications and API's with Flask.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 mx-3">Primary</button>
                 <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
             </div>
             </div>
         </div>
+    
     </div>
 </div>
 
