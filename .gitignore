@@ -94,3 +94,7 @@ docs/source/changelog.md
 M8_NLP/Week 1 - Traditional NLP/2. Semantic prediction/.vector_cache/wiki.simple.vec.pt
 M8_NLP/Week 1 - Traditional NLP/2. Semantic prediction/.vector_cache/wiki.simple.vec
 M8_NLP/Week 1 - Traditional NLP/2. Semantic prediction/df_amazon_3000.csv
+M8_NLP/Week 1 - Traditional NLP/2. Semantic prediction/.data/AmazonReviewFull/amazon_review_full_csv/train.csv
+M8_NLP/Week 1 - Traditional NLP/2. Semantic prediction/.data/AmazonReviewFull/amazon_review_full_csv/test.csv
+M8_NLP/Week 1 - Traditional NLP/2. Semantic prediction/.data/AmazonReviewFull/amazon_review_full_csv.tar.gz
+M8_NLP/Week 1 - Traditional NLP/2. Semantic prediction/Amazon_Reviews_Prediction.ipynb
