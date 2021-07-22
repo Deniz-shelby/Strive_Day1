@@ -98,3 +98,24 @@ M8_NLP/Week 1 - Traditional NLP/2. Semantic prediction/.data/AmazonReviewFull/am
 M8_NLP/Week 1 - Traditional NLP/2. Semantic prediction/.data/AmazonReviewFull/amazon_review_full_csv/test.csv
 M8_NLP/Week 1 - Traditional NLP/2. Semantic prediction/.data/AmazonReviewFull/amazon_review_full_csv.tar.gz
 M8_NLP/Week 1 - Traditional NLP/2. Semantic prediction/Amazon_Reviews_Prediction.ipynb
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/attribute_ruler/patterns
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/config.cfg
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/lemmatizer/lookups/lookups.bin
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/meta.json
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/ner/cfg
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/ner/model
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/ner/moves
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/parser/cfg
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/parser/model
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/parser/moves
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/senter/cfg
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/senter/model
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/tagger/cfg
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/tagger/model
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/tok2vec/cfg
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/tok2vec/model
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/tokenizer
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/vocab/key2row
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/vocab/lookups.bin
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/vocab/strings.json
+M8_NLP/Week 1 - Traditional NLP/4. NER/ner_models/vocab/vectors
