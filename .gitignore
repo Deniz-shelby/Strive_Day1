@@ -7,8 +7,8 @@ dataset*
 *.json
 
 #gpt2
-gpt2_recipes
-gpt2_jokes
+gpt2-recipes
+gpt2-jokes
 
 #img
 img
