@@ -1,7 +1,14 @@
 # Datasets
 Datasets
+dataset
+dataset*
 
 *.txt
+*.json
+
+#gpt2
+gpt2_recipes
+gpt2_jokes
 
 #img
 img
