@@ -10,6 +10,10 @@ dataset*
 gpt2-recipes
 gpt2-jokes
 
+#bert
+bert-*
+bert-ag-news-classification
+
 #img
 img
 
